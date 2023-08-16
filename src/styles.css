@@ -1,0 +1,19 @@
+/* style.css */
+
+/* About Me Section */
+#about-me {
+    padding: 20px;
+  }
+  
+  #about-me img {
+    width: 100px;
+    border-radius: 50%;
+  }
+  
+  #about-me p {
+    max-width: 600px;
+    line-height: 1.5;
+  }
+  
+  /* Other component styles go here */
+  
