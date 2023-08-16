@@ -1,6 +1,6 @@
 import React from 'react';
-import '../styles.css';
-import profileImage from '../assets/profileImage.png'; // Import your profile image
+import '../../styles.css';
+import profileImage from '../../assets/profileImage.png';
 
 const Header = ({ setSelectedSection, toggleTheme }) => {
   const handleSectionClick = (section) => {

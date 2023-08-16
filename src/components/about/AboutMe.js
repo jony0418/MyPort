@@ -1,6 +1,6 @@
 import React from 'react';
-import '../styles.css';
-import profileImage from '../assets/profileImage.png'; // Import your profile image
+import '../../styles.css';
+import profileImage from '../../assets/profileImage.png';
 
 const AboutMe = ({ navigateToContact }) => {
   const skills = ['JavaScript', 'React', 'Node.js', 'CSS', 'HTML']; // Add your skills here
@@ -10,9 +10,9 @@ const AboutMe = ({ navigateToContact }) => {
       <img id="about-me-image" src={profileImage} alt="Profile" />
       <div id="about-me-bio">
         <p>
-          Hi, I'm [Your Name], a passionate full-stack developer experienced in building engaging and
+          Hi, I'm Jonathan Becerra, a passionate full-stack developer experienced in building engaging and
           efficient web applications. I love turning ideas into reality using the latest technologies
-          and tools. My journey in the tech world started back in [year], and since then, I've been
+          and tools. My journey in the tech world started back in 2023, and since then, I've been
           learning and growing every day.
         </p>
       </div>
