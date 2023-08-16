@@ -1,15 +1,33 @@
 import React from 'react';
-import avatar from '../../assets/avatar.sgv'; // Adjust the path to your avatar image
-import './AboutMe.css'; // Import the CSS file
+import '../styles.css';
+import profileImage from '../assets/profileImage.png'; // Import your profile image
 
-const AboutMe = () => (
-  <section id="about-me">
-    <h2>About Me</h2>
-    <img src={avatar} alt="Your Avatar" />
-    <p>
-      Hi, I'm [Your Name], a passionate web developer specialized in React and full-stack development. With a background in [Your Field], I love creating efficient and user-friendly web applications. I am constantly exploring new technologies and tools to enhance my skills. Feel free to explore my portfolio to learn more about my work.
-    </p>
-  </section>
-);
+const AboutMe = ({ navigateToContact }) => {
+  const skills = ['JavaScript', 'React', 'Node.js', 'CSS', 'HTML']; // Add your skills here
+
+  return (
+    <section id="about-me-container">
+      <img id="about-me-image" src={profileImage} alt="Profile" />
+      <div id="about-me-bio">
+        <p>
+          Hi, I'm [Your Name], a passionate full-stack developer experienced in building engaging and
+          efficient web applications. I love turning ideas into reality using the latest technologies
+          and tools. My journey in the tech world started back in [year], and since then, I've been
+          learning and growing every day.
+        </p>
+      </div>
+      <div id="skills-container">
+        {skills.map((skill, index) => (
+          <div key={index} className="skill">
+            {skill}
+          </div>
+        ))}
+      </div>
+      <button className="contact-button" onClick={navigateToContact}>
+        Contact Me
+      </button>
+    </section>
+  );
+};
 
 export default AboutMe;
