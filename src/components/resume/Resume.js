@@ -21,7 +21,7 @@ const Resume = () => {
     <section className="resume">
       <h2 className="resume-title">Resume</h2>
       <a
-        href="../../assets/cvjonathanbecerra.pdf"
+        href="../assets/cvjonathanbecerra.pdf"
         download="cvjonathanbecerra.pdf"
         className="resume-download-link"
       >

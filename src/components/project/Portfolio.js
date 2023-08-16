@@ -7,7 +7,7 @@ const Portfolio = () => {
   const projects = [
     {
       title: 'Human Resources Management System',
-      image: '../../assets/opticrew.jpg',
+      image: '../assets/opticrew.jpg',
       deployedLink: 'https://opticrew-fe0f9781ad3c.herokuapp.com/',
       githubLink: 'https://github.com/jony0418/OptiCrew',
     },
