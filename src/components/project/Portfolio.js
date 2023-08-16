@@ -1,15 +1,15 @@
 import React from 'react';
-import Project from './Project'; // Importing the single Project component
-import '../../styles.css'; // Adjust the path to your CSS file as needed
+import Project from './Project';
+import '../../styles.css';
 
 const Portfolio = () => {
   // Define your projects here
   const projects = [
     {
-      title: 'E-commerce App',
-      image: 'ecommerce.png',
-      deployedLink: 'https://ecommerceapp.com',
-      githubLink: 'https://github.com/yourusername/ecommerce-app',
+      title: 'Human Resources Management System',
+      image: '../../assets/opticrew.jpg',
+      deployedLink: 'https://opticrew-fe0f9781ad3c.herokuapp.com/',
+      githubLink: 'https://github.com/jony0418/OptiCrew',
     },
     // Add more projects
   ];

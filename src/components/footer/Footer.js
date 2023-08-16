@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../styles.css'; // Adjust the path to your CSS file as needed
+import '../../styles.css';
 
 const Footer = () => {
   return (
@@ -14,10 +14,10 @@ const Footer = () => {
         <a href="https://stackoverflow.com/users/youruserid" target="_blank" rel="noreferrer">
           <i className="fab fa-stack-overflow"></i>
         </a>
-        {/* Add other social links as needed */}
+
       </div>
       <p className="footer-text">
-        &copy; {new Date().getFullYear()} Your Name. All rights reserved.
+        &copy; {new Date().getFullYear()} Jonathan Becerra. All rights reserved.
       </p>
     </footer>
   );

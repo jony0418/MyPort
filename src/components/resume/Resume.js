@@ -21,20 +21,20 @@ const Resume = () => {
     <section className="resume">
       <h2 className="resume-title">Resume</h2>
       <a
-        href="./assets/cvjonathanbecerra.pdf"
-        download="CVJonatha Becerra.pdf"
+        href="../../assets/cvjonathanbecerra.pdf"
+        download="cvjonathanbecerra.pdf"
         className="resume-download-link"
       >
         Download My Resume
       </a>
       <h3 className="proficiencies-title">My Proficiencies:</h3>
-      <ul className="proficiencies-list">
+      <div className="proficiencies-list">
         {proficiencies.map((proficiency, index) => (
-          <li key={index} className="proficiency">
+          <div key={index} className="proficiency">
             {proficiency}
-          </li>
+          </div>
         ))}
-      </ul>
+      </div>
     </section>
   );
 };

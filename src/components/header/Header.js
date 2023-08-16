@@ -11,14 +11,14 @@ const Header = ({ setSelectedSection, toggleTheme }) => {
     <header>
       <div id="name-container" onClick={() => handleSectionClick('AboutMe')}>
         <img src={profileImage} alt="Profile" />
-        <h1>Your Name</h1>
+        <h1>Jonathan Becerra</h1>
       </div>
       <nav id="navigation">
         <ul>
           <li onClick={() => handleSectionClick('Portfolio')}>Portfolio</li>
           <li onClick={() => handleSectionClick('Contact')}>Contact</li>
           <li onClick={() => handleSectionClick('Resume')}>Resume</li>
-          <li onClick={toggleTheme}>🌓</li> {/* Theme toggle icon */}
+          <li onClick={toggleTheme}>🌓</li>
         </ul>
       </nav>
     </header>

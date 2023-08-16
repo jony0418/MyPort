@@ -3,7 +3,7 @@ import '../../styles.css';
 import profileImage from '../../assets/profileImage.png';
 
 const AboutMe = ({ navigateToContact }) => {
-  const skills = ['JavaScript', 'React', 'Node.js', 'CSS', 'HTML']; // Add your skills here
+  const skills = ['JavaScript', 'React', 'Node.js', 'CSS', 'HTML']; 
 
   return (
     <section id="about-me-container">

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../../styles.css'; // Assuming styles.css is in the same directory as Contact.js
+import '../../styles.css'; 
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -18,8 +18,9 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Here you can handle the form submission logic,
-    // like sending the data to an email or database.
+//
+//
+
     console.log('Form submitted:', formData);
   };
 
