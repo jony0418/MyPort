@@ -1,13 +1,18 @@
-// src/components/project/Project.js
 import React from 'react';
-
-const Project = ({ title, image, deployedLink, repoLink }) => (
-  <div>
-    <img src={image} alt={title} />
-    <h3>{title}</h3>
-    <a href={deployedLink}>Deployed Application</a>
-    <a href={repoLink}>GitHub Repository</a>
-  </div>
-);
+import '../../styles.css';
+const Project = ({ title, image, deployedLink, githubLink }) => {
+  return (
+    <div className="project">
+      <img src={`./assets/${image}`} alt={title} className="project-image" />
+      <h3 className="project-title">{title}</h3>
+      <a href={deployedLink} target="_blank" rel="noreferrer" className="project-link">
+        Deployed Application
+      </a>
+      <a href={githubLink} target="_blank" rel="noreferrer" className="project-link">
+        GitHub Repository
+      </a>
+    </div>
+  );
+};
 
 export default Project;
